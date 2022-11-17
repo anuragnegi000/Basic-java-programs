@@ -1,0 +1,91 @@
+import java.util.Scanner;
+public class java_cetpa7 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+//        WAP to print the total number of digits in the number entered by the user. 
+//        int i=0;
+//        System.out.println("Enter the number you want to check digits of:- ");
+//        int num=sc.nextInt();
+//        while(num!=0){
+//            num/=10;
+//            i++;
+//        }
+//        System.out.println("The total digits in above number are :- "+i);
+
+
+//WAP to check whether the number is palindrome or not.
+//    int num=sc.nextInt();
+//    int temp=0;
+//    int rev=0;
+//    int dcnum=num;
+//    while(num!=0){
+//        temp=num%10;
+//        rev=rev*10+temp;
+//        num=num/10;
+//    }
+//        System.out.println(rev);
+//        if(dcnum==rev){
+//            System.out.println("The number you have entered is a palindrome number");
+//        }
+//        else{
+//            System.out.println("The number is not a palindrome number");
+//        }
+
+//   Write a program to print the sum of first 10 natural numbers.
+//        int sum=0;
+//        int num=sc.nextInt();
+//        int i=0;
+//        for(i=0;i<=num;i++){
+//            sum+=i;
+//
+//        }
+//        System.out.println("The sum of first "+num+" natural numbers is " + sum);
+
+
+//        int num=sc.nextInt();
+//        int i=0;
+//        System.out.println("The odd number between 1 to "+num+" is :- ");
+//            for(i=0;i<=num;i++){
+//                if(i%2!=0) {
+//                    System.out.println(i);
+//                }
+//            }
+
+//WAP to print fibonacci series(First 10).
+//    int c;
+//    int a=0;
+//    int b=1;
+//    for(int i=1;i<=10;i++){
+//        c=a+b;
+//        System.out.println(" "+c);
+//        a=b;
+//        b=c;
+//    }
+
+        
+//        WAP to swap the numbers using third variable and without using the third variable.
+//        int a=10;
+//        System.out.println("Before swapping a is "+a);
+//        int b=20;
+//        System.out.println("Before swapping b is "+b);
+//        int t;
+
+
+        //         First method without using third variable.
+//        a=a+b;
+//        b=a-b;
+//        a=a-b;
+//        System.out.println("After swapping a is :- "+a);
+//        System.out.println("After swapping b is :- "+b);
+
+
+//        Second method using third variable.
+//        t=a;
+//        a=b;
+//        b=t;
+//        System.out.println("After swapping a is :- "+a);
+//        System.out.println("After swapping b is :- "+b);
+        
+    }
+}
+
